@@ -14,7 +14,7 @@ https://stardance.hackclub.com/missions/slack-bot/guide
 - 🤔 **/codsworth-catfact** U will receive a fun fact about anything!
 - 📶 **/codsworth-ping** It shows you the ping of the bot
 
-## Screen Shots!
+## Screen Shots & videos!
 
 <img width="959" height="499" alt="Screenshot 2026-09-21 203926" src="https://github.com/user-attachments/assets/b02d93f1-471d-43e2-8252-cb9274b46251" />
 
@@ -23,6 +23,8 @@ https://stardance.hackclub.com/missions/slack-bot/guide
 <img width="958" height="502" alt="Screenshot 2026-09-21 203817" src="https://github.com/user-attachments/assets/52c70fbc-53b1-4533-8136-0638798e9cc0" />
 
 <img width="959" height="500" alt="Screenshot 2026-09-21 203838" src="https://github.com/user-attachments/assets/fb2ea37b-1eb3-4108-a752-9f5de5394cf9" />
+
+https://github.com/user-attachments/assets/03f310cd-80a7-42bf-a385-114edef4fdf1
 
 ## ★ Special thanks to:
 `hackclub.com` for the guide and funding! <3
