@@ -24,3 +24,5 @@ https://stardance.hackclub.com/missions/slack-bot/guide
 
 <img width="959" height="500" alt="Screenshot 2026-09-21 203838" src="https://github.com/user-attachments/assets/fb2ea37b-1eb3-4108-a752-9f5de5394cf9" />
 
+## ★ Special thanks to:
+`hackclub.com` for the guide and funding! <3
