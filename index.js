@@ -22,7 +22,7 @@ const app = new App({
 const web = express();
 
 web.use(express.json());
-web.use(express.static(path.join(__dirname, "public")));
+web.use(express.static(path.join(__dirname, "Public")));
 
 app.command("/codsworth-ping", async ({ command, ack, respond }) => {
   const start = Date.now();
