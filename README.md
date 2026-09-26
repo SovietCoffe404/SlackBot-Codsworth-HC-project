@@ -36,7 +36,7 @@ Codsworth runs two things at once from a single node process:
    SLACK_BOT_TOKEN=xoxb-...
    SLACK_APP_TOKEN=xapp-...
 ```
-5. Start the bot:
+4. Start the bot:
 ```bash
    npm start
 ```
