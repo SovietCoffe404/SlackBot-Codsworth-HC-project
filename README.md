@@ -14,6 +14,12 @@ https://stardance.hackclub.com/missions/slack-bot/guide
 - 🤔 **/codsworth-catfact** U will receive a fun fact about anything!
 - 📶 **/codsworth-ping** It shows you the ping of the bot
 
+## How it works
+
+Codsworth runs two things at once from a single node process:
+1. A Slack bot connected via Socket Mode.
+2. An Express web server that serves a small static site and mirrors the same commands as a REST API, so you can try the bot's functionality without getting Slack on ur device.
+
 ## Demo :D
 
 Try Codsworth directly from your browser!
@@ -35,3 +41,7 @@ https://github.com/user-attachments/assets/03f310cd-80a7-42bf-a385-114edef4fdf1
 
 ## ★ Special thanks to:
 `hackclub.com` for the guide and funding! <3
+
+`Official Joke API`
+
+`catfact.ninja`
