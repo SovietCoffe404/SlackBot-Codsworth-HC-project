@@ -17,9 +17,29 @@ https://stardance.hackclub.com/missions/slack-bot/guide
 ## How it works
 
 Codsworth runs two things at once from a single node process:
-1. A Slack bot connected via Socket Mode.
-2. An Express web server that serves a small static site and mirrors the same commands as a REST API, so you can try the bot's functionality without getting Slack on ur device.
+1. A Slack bot connected via Socket Mode
+2. An Express web server that serves a small static site and mirrors the same commands as a REST API, so you can try the bot's functionality without getting Slack on ur device
 
+## 💻 Run it locally
+
+1. Clone the repo:
+```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+```
+2. Install dependencies:
+```bash
+   npm install
+```
+3. Copy `.env.example` to `.env` and fill in your own Slack tokens
+```
+   SLACK_BOT_TOKEN=xoxb-...
+   SLACK_APP_TOKEN=xapp-...
+```
+5. Start the bot:
+```bash
+   npm start
+```
 ## Demo :D
 
 Try Codsworth directly from your browser!
