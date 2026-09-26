@@ -22,7 +22,7 @@ const app = new App({
 const web = express();
 
 web.use(express.json());
-web.use(express.static(path.join(__dirname, "Public")));
+web.use(express.static(path.join(__dirname, "public")));
 
 app.command("/codsworth-ping", async ({ command, ack, respond }) => {
   const start = Date.now();
@@ -111,8 +111,4 @@ web.get("/api/joke", async (req, res) => {
   web.listen(PORT, "0.0.0.0", () => {
     console.log(`Demo running on port ${PORT}`);
   });
-<<<<<<< HEAD
 })();
-=======
-})();
->>>>>>> 4a19d2c (Initial commit)
