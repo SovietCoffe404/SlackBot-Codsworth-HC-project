@@ -14,6 +14,13 @@ https://stardance.hackclub.com/missions/slack-bot/guide
 - 🤔 **/codsworth-catfact** U will receive a fun fact about anything!
 - 📶 **/codsworth-ping** It shows you the ping of the bot
 
+## Demo :D
+
+Try Codsworth directly from your browser!
+
+**[🤖 Open Codsworth Demo](https://slackbot-codsworth-hc-project.onrender.com)**
+
+You can test all of Codsworth's commands without installing a thing
 ## Screen Shots & videos!
 
 <img width="959" height="499" alt="Screenshot 2026-09-21 203926" src="https://github.com/user-attachments/assets/b02d93f1-471d-43e2-8252-cb9274b46251" />
