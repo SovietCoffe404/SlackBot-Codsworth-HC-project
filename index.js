@@ -10,6 +10,14 @@ const app = new App({
   socketMode: true
 });
 
+const express = require("express");
+const path = require("path");
+
+const web = express();
+
+web.use(express.json());
+web.use(express.static(path.join(__dirname, "public")));
+
 app.command("/codsworth-ping", async ({ command, ack, respond }) => {
   const start = Date.now();
   await ack();
@@ -58,3 +66,79 @@ ${response.data.punchline}`
   await app.start();
   console.log("bot is running!");
 })();
+
+const PORT = process.env.PORT || 3000;
+
+web.get("/api/ping", (req, res) => {
+  const start = Date.now();
+
+  const latency = Date.now() - start;
+
+  res.json({
+    message: `Pong!\nLatency: ${latency}ms`
+  });
+});
+
+
+web.get("/api/help", (req, res) => {
+  res.json({
+    message:
+`Available Commands:
+
+/codsworth-ping - Check bot latency
+/codsworth-catfact - Get a cat fact
+/codsworth-joke - Get a random joke`
+  });
+});
+
+
+web.get("/api/catfact", async (req, res) => {
+
+  try {
+
+    const response = await axios.get(
+      "https://catfact.ninja/fact"
+    );
+
+    res.json({
+      message: `Cat Fact:\n${response.data.fact}`
+    });
+
+  } catch (err) {
+
+    res.json({
+      message: "Failed to fetch a cat fact."
+    });
+
+  }
+
+});
+
+
+web.get("/api/joke", async (req, res) => {
+
+  try {
+
+    const response = await axios.get(
+      "https://official-joke-api.appspot.com/random_joke"
+    );
+
+    res.json({
+      message:
+`${response.data.setup}
+${response.data.punchline}`
+    });
+
+  } catch (err) {
+
+    res.json({
+      message: "Failed to fetch a joke."
+    });
+
+  }
+
+});
+
+web.listen(PORT, "0.0.0.0", () => {
+  console.log(`Demo running on port ${PORT}`);
+});
