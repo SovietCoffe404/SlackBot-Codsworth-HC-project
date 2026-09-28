@@ -54,7 +54,7 @@ Codsworth runs two things at once from a single node process:
 Try Codsworth by joining this channel!
 
 **[🤖 Open Codsworth Demo](https://hackclub.enterprise.slack.com/archives/C0P5NE354)**
-
+ 
 You can test all of Codsworth's commands (˶˃⤙˂˶)
 
 ## Screen Shots & videos!
