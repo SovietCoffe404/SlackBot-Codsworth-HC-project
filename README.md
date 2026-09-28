@@ -59,7 +59,7 @@ Try Codsworth by joining this channel!
  
 You can test all of Codsworth's commands (˶˃⤙˂˶)
 
-**Demo note:** The web demo is part of the project, but I'm not including it in this submission. I'll add it to the repository after the project is approved.
+**Demo note:** The web demo is part of the project, but I'm not including it in this submission. I'll add it to the repository once approved.
 
 ## Screen Shots & videos!
 
