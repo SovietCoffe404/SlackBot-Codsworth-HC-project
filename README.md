@@ -26,8 +26,8 @@ This is a Slack Bot with few functions, since I created it just for curiosity, I
 ## How it works
 
 Codsworth runs two things at once from a single node process:
-1. A Slack bot connected via Socket Mode
-2. An Express web server that serves a small static site and mirrors the same commands as a REST API, so you can try the bot's functionality without getting Slack on ur device
+
+The bot uses Slack's Socket Mode, so it connects to Slack through a WebSocket instead of needing a public REST API. I host it on Hack Club Nest so it can stay online even when my PC is turned off! >ᴗ<
 
 ## 💻 Run it locally ദ്ദി(ᵔᗜᵔ) 
 
