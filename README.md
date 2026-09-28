@@ -1,11 +1,11 @@
-# Codsworth Bot
+# Codsworth Bot ⸜(｡˃ ᵕ ˂ )⸝♡
 
 Hi! Well this is a little guided project for Hack Club
 This is a Slack Bot with few functions, since I created it just for curiosity, I'll add more functions if I get a good idea
 
-## Based on:
+## Based on this guide:
 
-https://stardance.hackclub.com/missions/slack-bot/guide
+**[Guide right here! ◝(ᵔᗜᵔ)◜](https://stardance.hackclub.com/missions/slack-bot/guide)**
 
 ## Commands:
 
@@ -14,13 +14,22 @@ https://stardance.hackclub.com/missions/slack-bot/guide
 - 🤔 **/codsworth-catfact** U will receive a fun fact about anything!
 - 📶 **/codsworth-ping** It shows you the ping of the bot
 
+## Scopes:
+
+| Required | OAuth Scope | Description |
+|----------|-------------|--------------|
+| Yes | `app_mentions:read` | View messages that directly mention @Codsworth in conversations that the app is in |
+| Yes | `channels:history` | View messages and other content in public channels that "Codsworth" has been added to |
+| Yes | `chat:write` | Send messages as @Codsworth |
+| Yes | `commands` | Add shortcuts and/or slash commands that people can use |
+
 ## How it works
 
 Codsworth runs two things at once from a single node process:
 1. A Slack bot connected via Socket Mode
 2. An Express web server that serves a small static site and mirrors the same commands as a REST API, so you can try the bot's functionality without getting Slack on ur device
 
-## 💻 Run it locally
+## 💻 Run it locally ദ്ദി(ᵔᗜᵔ) 
 
 1. Clone the repo:
 ```bash
@@ -31,7 +40,7 @@ Codsworth runs two things at once from a single node process:
 ```bash
    npm install
 ```
-3. Copy `.env.example` to `.env` and fill in your own Slack tokens
+3. Copy `.env.example` to `.env` and fill in with your own Slack tokens
 ```
    SLACK_BOT_TOKEN=xoxb-...
    SLACK_APP_TOKEN=xapp-...
@@ -42,11 +51,12 @@ Codsworth runs two things at once from a single node process:
 ```
 ## Demo :D
 
-Try Codsworth directly from your browser!
+Try Codsworth by joining this channel!
 
-**[🤖 Open Codsworth Demo](https://slackbot-codsworth-hc-project.onrender.com)**
+**[🤖 Open Codsworth Demo](https://hackclub.enterprise.slack.com/archives/C0P5NE354)**
 
-You can test all of Codsworth's commands without installing a thing
+You can test all of Codsworth's commands (˶˃⤙˂˶)
+
 ## Screen Shots & videos!
 
 <img width="959" height="499" alt="Screenshot 2026-09-21 203926" src="https://github.com/user-attachments/assets/b02d93f1-471d-43e2-8252-cb9274b46251" />
