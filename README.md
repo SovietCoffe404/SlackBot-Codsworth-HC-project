@@ -33,7 +33,7 @@ Codsworth runs two things at once from a single node process:
 
 1. Clone the repo:
 ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/SovietCoffe404/SlackBot-Codsworth-HC-project.git
    cd your-repo
 ```
 2. Install dependencies:
