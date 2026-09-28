@@ -29,6 +29,8 @@ Codsworth runs two things at once from a single node process:
 
 The bot uses Slack's Socket Mode, so it connects to Slack through a WebSocket instead of needing a public REST API. I host it on Hack Club Nest so it can stay online even when my PC is turned off! >ᴗ<
 
+I also made a small web demo using Express that will mirror the bot's commands and let you interact with Codsworth from a browser. The web demo isn't included in this submission yet, but I plan to add it to the project after the submission is approved (˶ᵔᗜᵔ˶)ﾉﾞ 
+
 ## 💻 Run it locally ദ്ദി(ᵔᗜᵔ) 
 
 1. Clone the repo:
@@ -56,6 +58,8 @@ Try Codsworth by joining this channel!
 **[🤖 Open Codsworth Demo](https://hackclub.enterprise.slack.com/archives/C0P5NE354)**
  
 You can test all of Codsworth's commands (˶˃⤙˂˶)
+
+**Demo note:** The web demo is part of the project, but I'm not including it in this submission. I'll add it to the repository after the project is approved.
 
 ## Screen Shots & videos!
 
