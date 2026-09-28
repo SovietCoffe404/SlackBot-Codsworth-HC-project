@@ -34,11 +34,12 @@ app.command("/codsworth-ping", async ({ command, ack, respond }) => {
 app.command("/codsworth-help", async ({ ack, respond }) => {
   await ack();
   await respond({
-    text:
+  text:
 `Available Commands:
-/codsworth-ping - Check bot latency
-/codsworth-catfact - Get a cat fact
-/codsworth-joke - Get a random joke`
+ /codsworth-help - See all available commands
+ /codsworth-ping - Check bot latency
+ /codsworth-catfact - Get a cat fact
+ /codsworth-joke - Get a random joke`
   });
 });
 
